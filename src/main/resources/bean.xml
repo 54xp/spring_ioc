@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--id指向User类-->
+    <bean id="user" class="com.bean.User">
+        <!--在实例化对象时为成员变量赋值-->
+        <property name="name" value="李四"></property>
+    </bean>
+</beans>
