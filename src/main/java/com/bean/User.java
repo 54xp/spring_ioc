@@ -7,8 +7,7 @@ import java.io.Serializable;
  * @create 2020-01-06 9:07
  */
 
-public class User implements Serializable {
-    private static final long serialVersionUID = -3489589854571887347L;
+public class User {
 
     private String name;
 
